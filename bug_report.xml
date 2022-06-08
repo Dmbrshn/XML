@@ -1,0 +1,24 @@
+  <?xml version="1.0" encoding="utf-8"?>
+  <bag_report>
+    <ID>S_1</ID>
+    <Title>В профиле пользователя обязательное поле Имя возможно оставить пустым</Title>
+    <Precondition>
+      <Precondition_1>https://veber.ru</Precondition_1> 
+      <Precondition_2>Пользователь авторизован</Precondition_2> 
+      <Precondition_3>Открыт профиль пользователя</Precondition_3> 
+    </Precondition> 
+    <Steps>
+      <Step_1>Поле Имя оставить пустым</Step_1>
+      <Step_2>Поле Подтверждение пароля заполнить ввалидными данными<Step_2>
+      <Step_3>Нажать Сохранить</Step_3>
+    </Steps>
+    <Enviroments>
+      <Enviroments_OS>Windows 10 x64 Pro</Enviroments_OS>
+      <Enviroments_Browser>Google Chrome v102.0.5005.63 x64</Enviroments_Browser>
+    </Enviroments> 
+    <Expected_result>Имя должен быть не менее 3 символов.</Expected_result>
+    <Actual_result>Изменения сохранены</Actual_result>
+    <Priority>Высокий</Priority>
+    <Severity>Критический</Severity>
+    <Author>Абрашин Дмитрий</Author>
+        </bag_report>

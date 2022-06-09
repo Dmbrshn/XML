@@ -1,5 +1,5 @@
   <?xml version="1.0" encoding="utf-8"?>
-  <bag_report>
+  <bug_report>
     <ID>S_1</ID>
     <Title>В профиле пользователя обязательное поле Имя возможно оставить пустым</Title>
     <Precondition>
@@ -21,4 +21,4 @@
     <Priority>Высокий</Priority>
     <Severity>Критический</Severity>
     <Author>Абрашин Дмитрий</Author>
-        </bag_report>
+        </bug_report>

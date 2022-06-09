@@ -7,7 +7,7 @@
     git clone https://github.com/Dmbrshn/XML.git
  3.  Внутри локального XML создать файл "new.xml": 
    
-    touch new.xml
+    cd XML && touch new.xml
  4.  Добавить файл под гит: 
     
     git add new.xml
